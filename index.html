@@ -104,20 +104,17 @@
                 class="position-absolute bottom-0 end-0 badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis p-3 shadow-sm">
                 <i class="bi bi-cpu fs-5"></i>
               </span>
-
               <div
-                class="ratio ratio-1x1 rounded-4 border border-2 border-primary bg-primary-subtle d-flex align-items-center justify-content-center shadow-sm">
-                <div
-                  class="d-flex flex-column align-items-center justify-content-center text-primary-emphasis text-center p-4">
-                  <i class="bi bi-person-bounding-box display-1"></i>
-                  <p class="mt-3 mb-0 fw-medium">[SUA FOTO DE PERFIL]</p>
-                  <small class="text-secondary">Substitua este espaço pela sua foto</small>
-                </div>
+                class="ratio ratio-1x1 rounded-4 border border-2 border-primary bg-primary-subtle shadow-sm overflow-hidden">
+
+                <img src="foto.jpg" alt="Foto de perfil" class="w-100 h-100 object-fit-cover">
+
               </div>
             </div>
           </div>
-
         </div>
+
+      </div>
       </div>
     </section>
 
@@ -170,7 +167,7 @@
                 <div class="card border-0 bg-light h-100 rounded-4 text-center shadow-sm">
                   <div class="card-body d-flex flex-column justify-content-center">
                     <i class="bi bi-journal-check display-6 text-primary-emphasis"></i>
-                    <p class="display-6 fw-bold text-dark mb-0 mt-2">20</p>
+                    <p class="display-6 fw-bold text-dark mb-0 mt-2">18</p>
                     <p class="text-secondary mb-0">cursos concluídos</p>
                   </div>
                 </div>
@@ -190,7 +187,7 @@
                 <div class="card border-0 bg-light h-100 rounded-4 text-center shadow-sm">
                   <div class="card-body d-flex flex-column justify-content-center">
                     <i class="bi bi-kanban display-6 text-primary-emphasis"></i>
-                    <p class="display-6 fw-bold text-dark mb-0 mt-2">3</p>
+                    <p class="display-6 fw-bold text-dark mb-0 mt-2">2</p>
                     <p class="text-secondary mb-0">projetos realizados</p>
                   </div>
                 </div>
@@ -231,25 +228,17 @@
 
                     <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
                       <span class="badge rounded-pill bg-primary text-white">
-                        <i class="bi bi-mortarboard-fill me-1"></i>Graduação
+                        <i class="bi bi-mortarboard-fill me-1"></i> Graduação
                       </span>
 
-                      <span class="badge rounded-pill bg-warning-subtle text-success-emphasis">
-                        Em andamento
-                      </span>
+                      <span class="badge rounded-pill bg-warning-subtle text-success-emphasis">Em andamento</span>
                     </div>
 
-                    <h3 class="h4 fw-bold text-dark mb-1">
-                      Graduação em Análise e desenvolvimento de sistemas
-                    </h3>
+                    <h3 class="h4 fw-bold text-dark mb-1">Graduação em Análise e desenvolvimento de sistemas</h3>
 
-                    <p class="fw-medium text-primary-emphasis mb-1">
-                      <i class="bi bi-building me-3"></i>SENAI
-                    </p>
+                    <p class="fw-medium text-primary-emphasis mb-1"><i class="bi bi-building me-3"></i>SENAI</p>
 
-                    <p class="text-secondary mb-0">
-                      <i class="bi bi-calendar3 me-3"></i>2026 — 2028
-                    </p>
+                    <p class="text-secondary mb-0"><i class="bi bi-calendar3 me-3"></i>2026 — 2028</p>
 
                   </div>
                 </div>
@@ -264,22 +253,14 @@
                         <i class="bi bi-tools me-1"></i>Ensino Técnico
                       </span>
 
-                      <span class="badge rounded-pill text-dark bg-success-subtle">
-                        Concluída
-                      </span>
+                      <span class="badge rounded-pill text-dark bg-success-subtle">Concluída</span>
                     </div>
 
-                    <h3 class="h4 fw-bold text-dark mb-1">
-                      Técnico em Análise e desenvolvimento de sistemas
-                    </h3>
+                    <h3 class="h4 fw-bold text-dark mb-1">Técnico em Análise e desenvolvimento de sistemas</h3>
 
-                    <p class="fw-medium text-primary-emphasis mb-1">
-                      <i class="bi bi-building me-3"></i>SENAI
-                    </p>
+                    <p class="fw-medium text-primary-emphasis mb-1"><i class="bi bi-building me-3"></i>SENAI</p>
 
-                    <p class="text-secondary mb-0">
-                      <i class="bi bi-calendar3 me-3"></i>2024 — 2026
-                    </p>
+                    <p class="text-secondary mb-0"><i class="bi bi-calendar3 me-3"></i>2024 — 2026</p>
 
                   </div>
                 </div>
@@ -303,599 +284,674 @@
         <div class="row g-4">
 
           <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
               <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes1" aria-expanded="false" aria-controls="cursoDetalhes1">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Competência Transversal - Segurança no
+                      Trabalho</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
 
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
+                <div id="cursoDetalhes1" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
 
-                  <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 14 horas</p>
+
+                    <p class="small mb-3">Conhecimentos sobre prevenção de acidentes, identificação de riscos e práticas
+                      de segurança no ambiente de trabalho.</p>
+
+                    <a href="certificados/Certificado_Competencia_Transversal-Seguranca_no_Trabalho.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
                 </div>
 
-                <h3 class="h5 fw-semibold text-dark mb-2">Competência Transversal - Segurança no Trabalho</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 14 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Competencia_Transversal-Seguranca_no_Trabalho.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2024</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Desenvolvedor de Aplicações para Android</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 40 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Desenvolvedor_de_Aplicacoes_para_Android.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
 
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
               <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes2" aria-expanded="false" aria-controls="cursoDetalhes2">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Desenvolvedor de Aplicações para Android</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
 
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
+                <div id="cursoDetalhes2" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
 
-                  <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 40 horas</p>
+
+                    <p class="small mb-3">Desenvolvimento de aplicações Android, abordando programação, estrutura de
+                      projetos e recursos para dispositivos móveis.</p>
+
+                    <a href="certificados/Certificado_Desenvolvedor_de_Aplicacoes_para_Android.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
                 </div>
 
-                <h3 class="h5 fw-semibold text-dark mb-2">Desvendando o 5G</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i>SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 15 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Desvendando_o_5G.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2024</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Economia Circular</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 20 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Economia_Circular.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2024</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Fundamentos de Ciência de Dados - Google Cloud</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 20 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Fundamentos_de_Ciencia_de_Dados-Google_Cloud.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2024</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Fundamentos do Python 1</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 30 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Fundamentos_do_Python_1.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2024</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Implantação de Serviços em Nuvem - AWS Cloud Practitioner Foundational</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 40 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Implantacao_de_Servicos_em_Nuvem-AWS_Cloud_Practitioner_Foundational.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2024</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Privacidade e Proteção de Dados (LGPD)</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 4 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Privacidade_e_Protecao_de_Dados_(LGPD).pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
 
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
               <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes3" aria-expanded="false" aria-controls="cursoDetalhes3">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Desvendando o 5G</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
 
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
+                <div id="cursoDetalhes3" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i>SENAI</p>
 
-                  <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 15 horas</p>
+
+                    <p class="small mb-3">Conceitos sobre a tecnologia 5G, suas características, aplicações e impactos
+                      na conectividade.</p>
+
+                    <a href="certificados/Certificado_Desvendando_o_5G.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
                 </div>
 
-                <h3 class="h5 fw-semibold text-dark mb-2">Soluções Integradas com IOT</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 60 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Solucoes_Integradas_com_IoT.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2025</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Data Analytics e Tomada de Decisão</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 20 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_DATA ANALYTICS_E_TOMADA_DE_DECISAO.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
 
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
               <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes4" aria-expanded="false" aria-controls="cursoDetalhes4">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Economia Circular</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
 
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
+                <div id="cursoDetalhes4" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
 
-                  <span class="badge rounded-pill bg-light text-secondary">2025</span>
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 20 horas</p>
+
+                    <p class="small mb-3">Princípios da economia circular, com foco no uso eficiente de recursos,
+                      redução de desperdícios e sustentabilidade.</p>
+
+                    <a href="certificados/Certificado_Economia_Circular.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
                 </div>
 
-                <h3 class="h5 fw-semibold text-dark mb-2">Desvendando a Indústria 4.0</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 20 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Desvendando_a_Industria_40.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2025</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Fluência - Fundamentos da Inteligência Artificial</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 8 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_FLUENCIA-FUNDAMENTOS_DA_INTELIGENCIA_ARTIFICIAL.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2025</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Implantação de Serviços em Nuvem Microsoft AZ-900</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 40 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Implantacao_de_Servicos_em_Nuvem-Microsoft_AZ-900.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2025</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Microsoft Power BI</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 32 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Microsoft_Power_BI.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2025</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Web 3.0</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 20 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_WEB_30.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2026</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Cibersegurança na Nuvem</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 20 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Ciberseguranca_na_Nuvem.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-
-              </div>
-            </div>
-          </div>   
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
-              <div class="card-body d-flex flex-column p-4">
-
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
-
-                  <span class="badge rounded-pill bg-light text-secondary">2026</span>
-                </div>
-
-                <h3 class="h5 fw-semibold text-dark mb-2">Ética na Inteligência Artificial</h3>
-
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 4 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Etica_na_Inteligencia_Artificial.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
 
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-primary-subtle rounded-4 shadow-sm">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
               <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes5" aria-expanded="false" aria-controls="cursoDetalhes5">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Fundamentos de Ciência de Dados - Google Cloud
+                    </h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
 
-                <div class="d-flex justify-content-between align-items-start mb-2">
-                  <span
-                    class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
-                    <i class="bi bi-patch-check-fill fs-5"></i>
-                  </span>
+                <div id="cursoDetalhes5" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
 
-                  <span class="badge rounded-pill bg-light text-secondary">2026</span>
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 20 horas</p>
+
+                    <p class="small mb-3">Introdução à ciência de dados e aos principais conceitos relacionados ao uso
+                      de dados e serviços em nuvem.</p>
+
+                    <a href="certificados/Certificado_Fundamentos_de_Ciencia_de_Dados-Google_Cloud.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
                 </div>
 
-                <h3 class="h5 fw-semibold text-dark mb-2">Implantação de Serviços de Inteligência Artificial em Nuvem - Microsoft AI-900</h3>
 
-                <p class="text-primary-emphasis mb-2">
-                  <i class="bi bi-mortarboard me-1"></i> SENAI
-                </p>
-
-                <p class="text-secondary small mb-3">
-                  <i class="bi bi-clock me-1"></i> 40 horas
-                </p>
-
-                <p class="small mb-3">[Descrição opcional do curso.]</p>
-
-                <a href="certificados/Certificado_Implantacao_de_Servicos_de_Inteligencia_Artificial_em_Nuvem-Microsoft_AI-900.pdf" class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
-                  <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
-                </a>
-                
-                </div>
+              </div>
             </div>
           </div>
 
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes6" aria-expanded="false" aria-controls="cursoDetalhes6">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Fundamentos do Python 1</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes6" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 30 horas</p>
+
+                    <p class="small mb-3">Fundamentos da programação em Python, incluindo sintaxe, variáveis, estruturas
+                      de controle e desenvolvimento de programas.</p>
+
+                    <a href="certificados/Certificado_Fundamentos_do_Python_1.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes7" aria-expanded="false" aria-controls="cursoDetalhes7">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">AWS Cloud Practitioner Foundational</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes7" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 40 horas</p>
+
+                    <p class="small mb-3">Fundamentos de computação em nuvem e dos principais serviços e conceitos da
+                      AWS.</p>
+
+                    <a href="certificados/Certificado_Implantacao_de_Servicos_em_Nuvem-AWS_Cloud_Practitioner_Foundational.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes8" aria-expanded="false" aria-controls="cursoDetalhes8">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Privacidade e Proteção de Dados (LGPD)</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes8" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 4 horas</p>
+
+                    <p class="small mb-3">Conceitos de privacidade e proteção de dados, com foco nos princípios e
+                      requisitos da LGPD.</p>
+
+                    <a href="certificados/Certificado_Privacidade_e_Protecao_de_Dados_(LGPD).pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes9" aria-expanded="false" aria-controls="cursoDetalhes9">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Soluções Integradas com IOT</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2024</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes9" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 60 horas</p>
+
+                    <p class="small mb-3">Conceitos e aplicações de Internet das Coisas, integrando dispositivos,
+                      sensores, conectividade e sistemas.</p>
+
+                    <a href="certificados/Certificado_Solucoes_Integradas_com_IoT.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes10" aria-expanded="false" aria-controls="cursoDetalhes10">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Data Analytics e Tomada de Decisão</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2025</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes10" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 20 horas</p>
+
+                    <p class="small mb-3">Uso de análise de dados para interpretar informações, identificar padrões e
+                      apoiar a tomada de decisões.</p>
+
+                    <a href="certificados/Certificado_DATA ANALYTICS_E_TOMADA_DE_DECISAO.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes11" aria-expanded="false" aria-controls="cursoDetalhes11">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Desvendando a Indústria 4.0</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2025</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes11" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 20 horas</p>
+
+                    <p class="small mb-3">Conceitos e tecnologias da Indústria 4.0 e seus impactos na transformação dos
+                      processos industriais.</p>
+
+                    <a href="certificados/Certificado_Desvendando_a_Industria_40.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes12" aria-expanded="false" aria-controls="cursoDetalhes12">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Fluência - Fundamentos da Inteligência
+                      Artificial</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2025</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes12" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 8 horas</p>
+
+                    <p class="small mb-3">Introdução aos conceitos fundamentais de Inteligência Artificial e suas
+                      principais aplicações.</p>
+
+                    <a href="certificados/Certificado_FLUENCIA-FUNDAMENTOS_DA_INTELIGENCIA_ARTIFICIAL.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes13" aria-expanded="false" aria-controls="cursoDetalhes13">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Implantação de Serviços em Nuvem Microsoft
+                      AZ-900</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2025</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes13" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 40 horas</p>
+
+                    <p class="small mb-3">Fundamentos de computação em nuvem, serviços e conceitos essenciais da
+                      plataforma Microsoft Azure.</p>
+
+                    <a href="certificados/Certificado_Implantacao_de_Servicos_em_Nuvem-Microsoft_AZ-900.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes14" aria-expanded="false" aria-controls="cursoDetalhes14">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Microsoft Power BI</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2025</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes14" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 32 horas</p>
+
+                    <p class="small mb-3">Fundamentos de análise e visualização de dados utilizando o Microsoft Power
+                      BI.</p>
+
+                    <a href="certificados/Certificado_Microsoft_Power_BI.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes15" aria-expanded="false" aria-controls="cursoDetalhes15">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Web 3.0</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2025</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes15" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 20 horas</p>
+
+                    <p class="small mb-3">Conceitos relacionados à Web 3.0, tecnologias descentralizadas e novas formas
+                      de interação na internet.</p>
+
+                    <a href="certificados/Certificado_WEB_30.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes16" aria-expanded="false" aria-controls="cursoDetalhes16">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Cibersegurança na Nuvem</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2026</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes16" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 20 horas</p>
+
+                    <p class="small mb-3">Princípios de segurança em ambientes de nuvem, abordando riscos, proteção de
+                      dados e boas práticas.</p>
+
+                    <a href="certificados/Certificado_Ciberseguranca_na_Nuvem.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes17" aria-expanded="false" aria-controls="cursoDetalhes17">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Ética na Inteligência Artificial</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2026</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes17" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 4 horas</p>
+
+                    <p class="small mb-3">Princípios éticos relacionados ao desenvolvimento e uso responsável de
+                      tecnologias de Inteligência Artificial.</p>
+
+                    <a href="certificados/Certificado_Etica_na_Inteligencia_Artificial.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 bg-primary-subtle rounded-4 shadow-sm">
+              <div class="card-body d-flex flex-column p-4">
+                <button class="btn p-0 border-0 text-start w-100 curso-toggle" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#cursoDetalhes18" aria-expanded="false" aria-controls="cursoDetalhes18">
+                  <div class="d-flex align-items-center gap-3">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis p-2">
+                      <i class="bi bi-patch-check-fill fs-5"></i>
+                    </span>
+                    <h3 class="h6 fw-semibold text-dark mb-0 flex-grow-1">Microsoft AI-900</h3>
+                    <span class="badge rounded-pill bg-light text-secondary">2026</span>
+                    <i class="bi bi-chevron-down curso-seta"></i>
+                  </div>
+                </button>
+
+                <div id="cursoDetalhes18" class="collapse curso-detalhes">
+                  <div class="pt-2">
+                    <p class="text-primary-emphasis mb-2"><i class="bi bi-mortarboard me-1"></i> SENAI</p>
+
+                    <p class="text-secondary small mb-3"><i class="bi bi-clock me-1"></i> 40 horas</p>
+
+                    <p class="small mb-3">Fundamentos de Inteligência Artificial e dos principais serviços de IA
+                      disponíveis na plataforma Microsoft Azure.</p>
+
+                    <a href="certificados/Certificado_Implantacao_de_Servicos_de_Inteligencia_Artificial_em_Nuvem-Microsoft_AI-900.pdf"
+                      class="btn btn-sm btn-outline-primary mt-auto align-self-start" target="_blank">
+                      <i class="bi bi-file-earmark-check me-1"></i> Ver certificado
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -906,7 +962,7 @@
         <div class="text-center mb-5">
           <p class="text-uppercase text-primary-emphasis fw-semibold mb-1">Habilidades</p>
           <h2 class="fw-bold text-dark">Conhecimentos por categoria</h2>
-          <p class="text-secondary">Adicione ou remova badges conforme evoluir.</p>
+          <p class="text-secondary">Em ordem de proficiência e experiência</p>
         </div>
 
         <div class="row g-4">
@@ -916,17 +972,22 @@
               <div class="card-body p-4">
 
                 <h3 class="h5 fw-semibold text-dark mb-3">
-                  <i class="bi bi-code-square me-2 text-primary-emphasis"></i>
-                  Desenvolvimento
+                  <i class="bi bi-code-square me-2 text-primary-emphasis"></i> Desenvolvimento
                 </h3>
 
                 <div class="d-flex flex-wrap gap-2">
-                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">[TECNOLOGIA]</span>
-                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">[TECNOLOGIA]</span>
-                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">[Em
-                    aprendizado]</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">C#</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Python</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">ASP.NET Core
+                    MVC</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Programação Orientada
+                    a Objetos</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Desenvolvimento
+                    Web</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Java</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Bootstrap</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">Flutter/Dart</span>
                 </div>
-
               </div>
             </div>
           </div>
@@ -936,16 +997,19 @@
               <div class="card-body p-4">
 
                 <h3 class="h5 fw-semibold text-dark mb-3">
-                  <i class="bi bi-database me-2 text-primary-emphasis"></i>
-                  Banco de dados
+                  <i class="bi bi-database me-2 text-primary-emphasis"></i> Banco de dados
                 </h3>
 
                 <div class="d-flex flex-wrap gap-2">
-                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">[TECNOLOGIA]</span>
-                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">[Em
-                    aprendizado]</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">SQL</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">SQL Server</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Modelagem de banco de
+                    dados</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Consultas SQL</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">CRUD</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Relacionamento entre
+                    tabelas</span>
                 </div>
-
               </div>
             </div>
           </div>
@@ -955,15 +1019,22 @@
               <div class="card-body p-4">
 
                 <h3 class="h5 fw-semibold text-dark mb-3">
-                  <i class="bi bi-tools me-2 text-primary-emphasis"></i>
-                  Ferramentas
+                  <i class="bi bi-tools me-2 text-primary-emphasis"></i> Ferramentas e Plataformas
                 </h3>
 
                 <div class="d-flex flex-wrap gap-2">
-                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">[FERRAMENTA]</span>
-                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">[FERRAMENTA]</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Visual Studio</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Visual Studio
+                    Code</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">SSMS</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Git</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">GitHub</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Power BI</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">AWS</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Microsoft Azure</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">Android Studio</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">Google Cloud</span>
                 </div>
-
               </div>
             </div>
           </div>
@@ -973,246 +1044,131 @@
               <div class="card-body p-4">
 
                 <h3 class="h5 fw-semibold text-dark mb-3">
-                  <i class="bi bi-lightbulb me-2 text-primary-emphasis"></i>
-                  Outros conhecimentos
+                  <i class="bi bi-lightbulb me-2 text-primary-emphasis"></i> Conhecimentos Gerais
                 </h3>
 
                 <div class="d-flex flex-wrap gap-2">
-                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">[CONHECIMENTO]</span>
-                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">[Familiaridade]</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Engenharia de
+                    requisitos</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Análise de
+                    dados</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">Cibersegurança</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">LGPD</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-50 text-primary-emphasis">API</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">IoT</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">Computação em
+                    nuvem</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">Automação
+                    industrial</span>
                 </div>
-
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
 
-    <section id="projetos" class="pt-5 mt-5 bg-light min-vh-100 d-flex align-items-center">
-      <div class="container">
-
-        <div class="text-center mb-4">
-          <p class="text-uppercase text-primary-emphasis fw-semibold mb-1">Projetos</p>
-          <h2 class="fw-bold text-dark">Projetos acadêmicos, pessoais e de estudo</h2>
-          <p class="text-secondary">Projetos desenvolvidos ao longo dos estudos — em constante crescimento.</p>
-        </div>
-
-        <div class="d-flex justify-content-center mb-4">
-          <div class="btn-group flex-wrap" role="group" aria-label="Filtrar projetos por categoria">
-            <button type="button" class="btn btn-outline-primary active" data-filter="all">Todos</button>
-            <button type="button" class="btn btn-outline-primary" data-filter="academico">Acadêmicos</button>
-            <button type="button" class="btn btn-outline-primary" data-filter="pessoal">Pessoais</button>
-            <button type="button" class="btn btn-outline-primary" data-filter="estudo">Estudos</button>
-          </div>
-        </div>
-
-        <div class="row g-4" id="projectsGrid">
-
-          <div class="col-md-6 col-lg-4 project-item" data-category="academico">
-            <div class="card h-100 border-0 bg-light rounded-4 shadow-sm overflow-hidden">
-
-              <div class="ratio ratio-16x9 bg-primary-subtle d-flex align-items-center justify-content-center">
-                <div class="d-flex flex-column align-items-center justify-content-center text-primary-emphasis">
-                  <i class="bi bi-image display-5"></i>
-                  <small>[THUMBNAIL DO PROJETO]</small>
-                </div>
-              </div>
-
-              <div class="card-body d-flex flex-column p-4">
-
-                <span class="badge rounded-pill bg-secondary text-dark align-self-start mb-2">Acadêmico</span>
-
-                <h3 class="h5 fw-semibold text-dark mb-1">[NOME DO PROJETO]</h3>
-
-                <p class="small text-secondary mb-3">[DESCRIÇÃO DO PROJETO]</p>
-
-                <div class="d-flex flex-wrap gap-1 mb-3">
-                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">[TECNOLOGIA]</span>
-                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">[TECNOLOGIA]</span>
-                </div>
-
-                <div class="d-flex gap-2 mt-auto">
-                  <a href="[LINK DO PROJETO]" class="btn btn-sm btn-primary">
-                    <i class="bi bi-box-arrow-up-right me-1"></i>Ver projeto
-                  </a>
-
-                  <a href="[LINK DO CÓDIGO]" class="btn btn-sm btn-outline-primary">
-                    <i class="bi bi-github me-1"></i>Código
-                  </a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 project-item" data-category="pessoal">
-            <div class="card h-100 border-0 bg-light rounded-4 shadow-sm overflow-hidden">
-
-              <div class="ratio ratio-16x9 bg-primary-subtle d-flex align-items-center justify-content-center">
-                <div class="d-flex flex-column align-items-center justify-content-center text-primary-emphasis">
-                  <i class="bi bi-image display-5"></i>
-                  <small>[THUMBNAIL DO PROJETO]</small>
-                </div>
-              </div>
-
-              <div class="card-body d-flex flex-column p-4">
-
-                <span class="badge rounded-pill bg-secondary text-dark align-self-start mb-2">Pessoal</span>
-
-                <h3 class="h5 fw-semibold text-dark mb-1">[NOME DO PROJETO]</h3>
-
-                <p class="small text-secondary mb-3">[DESCRIÇÃO DO PROJETO]</p>
-
-                <div class="d-flex flex-wrap gap-1 mb-3">
-                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">[TECNOLOGIA]</span>
-                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">[TECNOLOGIA]</span>
-                </div>
-
-                <div class="d-flex gap-2 mt-auto">
-                  <a href="[LINK DO PROJETO]" class="btn btn-sm btn-primary">
-                    <i class="bi bi-box-arrow-up-right me-1"></i>Ver projeto
-                  </a>
-
-                  <a href="[LINK DO CÓDIGO]" class="btn btn-sm btn-outline-primary">
-                    <i class="bi bi-github me-1"></i>Código
-                  </a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 project-item" data-category="estudo">
-            <div class="card h-100 border-0 bg-light rounded-4 shadow-sm overflow-hidden">
-
-              <div class="ratio ratio-16x9 bg-primary-subtle d-flex align-items-center justify-content-center">
-                <div class="d-flex flex-column align-items-center justify-content-center text-primary-emphasis">
-                  <i class="bi bi-image display-5"></i>
-                  <small>[THUMBNAIL DO PROJETO]</small>
-                </div>
-              </div>
-
-              <div class="card-body d-flex flex-column p-4">
-
-                <span class="badge rounded-pill bg-secondary text-dark align-self-start mb-2">Estudo</span>
-
-                <h3 class="h5 fw-semibold text-dark mb-1">[NOME DO PROJETO]</h3>
-
-                <p class="small text-secondary mb-3">[DESCRIÇÃO DO PROJETO]</p>
-
-                <div class="d-flex flex-wrap gap-1 mb-3">
-                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">[TECNOLOGIA]</span>
-                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">[TECNOLOGIA]</span>
-                </div>
-
-                <div class="d-flex gap-2 mt-auto">
-                  <a href="[LINK DO PROJETO]" class="btn btn-sm btn-primary">
-                    <i class="bi bi-box-arrow-up-right me-1"></i>Ver projeto
-                  </a>
-
-                  <a href="[LINK DO CÓDIGO]" class="btn btn-sm btn-outline-primary">
-                    <i class="bi bi-github me-1"></i>Código
-                  </a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section id="estudando" class="min-vh-100 d-flex align-items-center">
+    <section id="projetos" class="pt-5 pb-5 bg-light min-vh-100 d-flex align-items-center">
       <div class="container">
 
         <div class="text-center mb-5">
-          <p class="text-uppercase text-primary-emphasis fw-semibold mb-1">Evolução contínua</p>
-          <h2 class="fw-bold text-dark">O que estou estudando</h2>
-          <p class="text-secondary">Aprendizado em andamento — construindo minha carreira passo a passo.</p>
+          <p class="text-uppercase text-primary-emphasis fw-semibold mb-1">Projetos</p>
+          <h2 class="fw-bold text-dark">Projetos acadêmicos e de estudo</h2>
+          <p class="text-secondary">
+            Projetos desenvolvidos ao longo da formação acadêmica, aplicando conhecimentos
+            de desenvolvimento, banco de dados e tecnologias web.
+          </p>
         </div>
 
-        <div class="row g-4">
+        <div class="row g-4 justify-content-center" id="projectsGrid">
 
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-white rounded-4 shadow-sm">
-              <div class="card-body p-4">
+          <div class="col-md-6 col-lg-5 project-item" data-category="academico">
+            <div class="card h-100 border-0 bg-white rounded-4 shadow-sm overflow-hidden">
 
-                <span
-                  class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis mb-3 p-2">
-                  <i class="bi bi-hourglass-split fs-4"></i>
-                </span>
+              <div class="ratio ratio-16x9 bg-primary-subtle d-flex align-items-center justify-content-center">
+                <div class="d-flex flex-column align-items-center justify-content-center text-primary-emphasis">
+                  <i class="bi bi-building-gear display-4 mb-2"></i>
+                  <small>GRMP</small>
+                </div>
+              </div>
 
-                <h3 class="h5 fw-semibold text-dark mb-1">[TECNOLOGIA / ASSUNTO]</h3>
+              <div class="card-body d-flex flex-column p-4">
 
-                <p class="text-secondary small mb-2">
-                  <i class="bi bi-mortarboard me-1"></i>[CURSO / FONTE]
+                <span class="badge rounded-pill bg-secondary text-white align-self-start mb-2">Acadêmico</span>
+
+                <h3 class="h5 fw-semibold text-dark mb-1">GRMP — Gerenciador de Manutenção Predial</h3>
+
+                <p class="small text-secondary mb-3">
+                  Sistema web desenvolvido para auxiliar no controle e gerenciamento
+                  de ordens de serviço de manutenção predial no ambiente escolar.
+                  Possui gerenciamento de usuários, níveis de acesso, solicitações,
+                  status, prioridades e visualização dos chamados em um mapa interativo.
                 </p>
 
-                <p class="small mb-0">
-                  <span class="fw-medium text-primary-emphasis">Objetivo:</span>
-                  [O QUE PRETENDE ALCANÇAR]
-                </p>
+                <div class="d-flex flex-wrap gap-1 mb-3">
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">C#</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">ASP.NET Core
+                    MVC</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">SQL Server</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">JavaScript</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">HTML</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">CSS</span>
+                </div>
 
+                <div class="d-flex gap-2 mt-auto">
+                  <a href="https://github.com/Goose-CauaRodrigues/GRMP2" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-sm 
+                            btn-outline-primary">
+                    <i class="bi bi-github me-1"></i> Código
+                  </a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-white rounded-4 shadow-sm">
-              <div class="card-body p-4">
+          <div class="col-md-6 col-lg-5 project-item" data-category="academico">
+            <div class="card h-100 border-0 bg-white rounded-4 shadow-sm overflow-hidden">
 
-                <span
-                  class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis mb-3 p-2">
-                  <i class="bi bi-hourglass-split fs-4"></i>
-                </span>
+              <div class="ratio ratio-16x9 bg-primary-subtle d-flex align-items-center justify-content-center">
+                <div class="d-flex flex-column align-items-center justify-content-center text-primary-emphasis">
+                  <i class="bi bi-mortarboard display-4 mb-2"></i>
+                  <small>Inova Serrana</small>
+                </div>
+              </div>
 
-                <h3 class="h5 fw-semibold text-dark mb-1">[TECNOLOGIA / ASSUNTO]</h3>
+              <div class="card-body d-flex flex-column p-4">
 
-                <p class="text-secondary small mb-2">
-                  <i class="bi bi-mortarboard me-1"></i>[CURSO / FONTE]
+                <span class="badge rounded-pill bg-secondary text-white align-self-start mb-2">Acadêmico</span>
+
+                <h3 class="h5 fw-semibold text-dark mb-1">Inova Serrana</h3>
+
+                <p class="small text-secondary mb-3">
+                  Portal de educação digital desenvolvido para apresentar cursos e conteúdos
+                  educacionais por meio de uma interface web organizada e responsiva, com páginas
+                  institucionais, login, cadastro e recursos de interação com o usuário.
                 </p>
 
-                <p class="small mb-0">
-                  <span class="fw-medium text-primary-emphasis">Objetivo:</span>
-                  [O QUE PRETENDE ALCANÇAR]
-                </p>
+                <div class="d-flex flex-wrap gap-1 mb-3">
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">HTML5</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">CSS3</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">JavaScript</span>
+                  <span class="badge rounded-pill bg-primary bg-opacity-25 text-primary-emphasis">Tailwind CSS</span>
+                </div>
 
+                <div class="d-flex gap-2 mt-auto">
+                  <a href="https://github.com/vtoriaoliv/InovaSerrana" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-sm btn-outline-primary">
+                    <i class="bi bi-github me-1"></i>Código
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 border-0 bg-white rounded-4 shadow-sm">
-              <div class="card-body p-4">
-
-                <span
-                  class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary bg-opacity-50 text-primary-emphasis mb-3 p-2">
-                  <i class="bi bi-hourglass-split fs-4"></i>
-                </span>
-
-                <h3 class="h5 fw-semibold text-dark mb-1">[TECNOLOGIA / ASSUNTO]</h3>
-
-                <p class="text-secondary small mb-2">
-                  <i class="bi bi-mortarboard me-1"></i>[CURSO / FONTE]
-                </p>
-
-                <p class="small mb-0">
-                  <span class="fw-medium text-primary-emphasis">Objetivo:</span>
-                  [O QUE PRETENDE ALCANÇAR]
-                </p>
-
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
 
-    <section id="contato" class="min-vh-100 d-flex align-items-center bg-light">
+    <section id="contato" class="min-vh-100 d-flex align-items-center bg-white">
       <div class="container">
 
         <div class="text-center mb-5">
@@ -1269,9 +1225,7 @@
                       <span>https://www.linkedin.com/in/nicolascesarmendes/</span>
                     </div>
                   </div>
-
                 </div>
-
               </div>
             </div>
           </div>
@@ -1321,18 +1275,14 @@
 
   <footer class="bg-light border-top py-4">
     <div class="container">
-
       <div class="row align-items-center g-3 text-center text-md-start">
 
         <div class="col-md-6">
           <p class="fw-semibold text-dark mb-1">Nícolas César Rodrigues Mendes</p>
-          <p class="text-secondary small mb-0">
-            Construindo minha carreira na tecnologia, um projeto de cada vez.
-          </p>
+          <p class="text-secondary small mb-0">Construindo minha carreira na tecnologia, um projeto de cada vez.</p>
         </div>
 
         <div class="col-md-6 d-flex justify-content-center justify-content-md-end gap-3 fs-5">
-
           <a href="https://github.com/NicolasCesarMendes" class="link-primary" aria-label="GitHub">
             <i class="bi bi-github"></i>
           </a>
@@ -1344,14 +1294,12 @@
           <a href="mailto:nicolascesarmendes@gmail.com" class="link-primary" aria-label="E-mail">
             <i class="bi bi-envelope-fill"></i>
           </a>
-
         </div>
 
         <div class="col-12">
           <hr>
-          <p class="text-secondary small mb-0">
-            © <span id="year"></span> Nícolas César Rodrigues Mendes. Todos os direitos reservados.
-          </p>
+          <p class="text-secondary small mb-0">© <span id="year"></span> Nícolas César Rodrigues Mendes. Todos os
+            direitos reservados.</p>
         </div>
 
       </div>
@@ -1374,25 +1322,7 @@
         }
       });
     });
-
-    const filterButtons = document.querySelectorAll("[data-filter]");
-    const projectItems = document.querySelectorAll(".project-item");
-
-    filterButtons.forEach(button => {
-      button.addEventListener("click", () => {
-        filterButtons.forEach(item => item.classList.remove("active"));
-        button.classList.add("active");
-
-        const filter = button.dataset.filter;
-
-        projectItems.forEach(project => {
-          const visible = filter === "all" || project.dataset.category === filter;
-          project.classList.toggle("d-none", !visible);
-        });
-      });
-    });
   </script>
-
 </body>
 
 </html>
