@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Portfólio pessoal de estudante da área de tecnologia — formação, cursos, habilidades e projetos.">
+  <meta name="description" content="Portfólio pessoal de estudante da área de tecnologia — formação, cursos, habilidades e projetos.">
   <title>Nícolas César — Portfólio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -878,14 +877,14 @@
         document.getElementById("cursos-col-1"),
         document.getElementById("cursos-col-2")
       ];
-      const fragments = colunas.map(() => document.createDocumentFragment());
+      const fragmentos = colunas.map(() => document.createDocumentFragment());
 
       cursos.forEach((curso, index) => {
         const item = criarItemCurso(curso, index);
-        fragments[index % colunas.length].appendChild(item);
+        fragmentos[index % colunas.length].appendChild(item);
       });
 
-      colunas.forEach((coluna, i) => coluna.appendChild(fragments[i]));
+      colunas.forEach((coluna, i) => coluna.appendChild(fragmentos[i]));
     }
 
     renderizarCursos();
